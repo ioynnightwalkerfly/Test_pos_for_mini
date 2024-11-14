@@ -1,0 +1,38 @@
+<?php 
+include('../condb.php');
+echo "<pre>";
+print_r($_POST);
+print_r($_FILES);
+echo "</pre>";
+
+exit();
+
+
+
+if (isset($_POST['member']) && $_POST['member']=="add") {
+
+
+
+
+
+
+} elseif (isset($_POST['member']) && $_POST['member']=="edit") {
+
+
+
+
+
+
+}elseif (isset($_GET['member']) && $_GET['member']=="del"){	
+
+
+
+
+}else{
+
+
+
+
+}
+
+?>
